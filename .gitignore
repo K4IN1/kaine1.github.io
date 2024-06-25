@@ -2,4 +2,5 @@
 Thumbs.db
 *.log
 .deploy*/
+public/
 _multiconfig.yml
