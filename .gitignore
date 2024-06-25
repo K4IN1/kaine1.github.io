@@ -3,4 +3,5 @@ Thumbs.db
 *.log
 .deploy*/
 public/
+db.json
 _multiconfig.yml
