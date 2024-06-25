@@ -8,9 +8,27 @@
     <link href="/2024/06/25/Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
     <url>/2024/06/25/Pages%E5%92%8CHexo%E6%90%AD%E5%BB%BA%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/</url>
     
-    <content type="html"><![CDATA[]]></content>
+    <content type="html"><![CDATA[<h1 id="使用GitHub-Pages与Hexo搭建个人博客"><a href="#使用GitHub-Pages与Hexo搭建个人博客" class="headerlink" title="使用GitHub Pages与Hexo搭建个人博客"></a>使用GitHub Pages与Hexo搭建个人博客</h1><p>看了许多利用GitHub Pages建立个人博客的例子，使用的比较多的就是<strong>jkeyll</strong>和<strong>Hexo</strong>，最终选择了使用<strong>Hexo</strong>搭建我的博客  </p><p>参考<a href="https://hexo.io/zh-cn/">Hexo官方网站</a>，需要先安装以下应用程序  </p><ul><li><strong><a href="https://nodejs.org/">Node.js</a></strong>  </li><li><strong><a href="https://git-scm.com/">Git</a></strong></li></ul><h2 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h2><p>不同的操作系统拥有不同的安装程序  </p><ul><li>Windows一般使用<a href="https://git-scm.com/download/win">安装包</a>  </li><li>Mac系统可以寻找Homebrew或者对应安装程序</li><li>Linux则可以通过apt&#x2F;yum包管理器来进行安装<br>在控制台中键入<br><code>sudo apt-get install git-core</code><br>或者<br><code>sudo yum install git-core</code></li></ul><h2 id="安装Node-js"><a href="#安装Node-js" class="headerlink" title="安装Node.js"></a>安装Node.js</h2><p>直接访问<a href="https://nodejs.org/zh-cn/download/">Node.js官方提供的下载网址</a><br>选择你自己的操作系统和版本，按提示操作即可<br>这里建议Windows和Mac使用安装程序安装<br>Linux使用nvm进行包管理（安装完记得source ~&#x2F;.bashrc）</p><h2 id="安装Hexo并建立项目"><a href="#安装Hexo并建立项目" class="headerlink" title="安装Hexo并建立项目"></a>安装Hexo并建立项目</h2><p>直接使用npm安装Hexo  </p><pre><code class="hljs">npm install -g hexo-cli  </code></pre><p>然后新建一个空目录，用于Hexo的初始化  </p><pre><code class="hljs">mkdir mainhexo init maincd mainnpm install</code></pre><p>这样你的Hexo项目就建立好了，各文件的作用请参考<a href="https://hexo.io/zh-cn/docs/setup">文档</a><br>随后就可以为你的Blog选一个主题了，官方提供了一个<a href="https://hexo.io/themes/">主题列表</a>，你可以在里面挑选自己喜欢的样式<br>当然也可以直接Google或者Github搜索，有一些主题应该是没有被收录的<br>随后进入主题的网站按照教程来即可，一般导入主题方法如下<br>本次采用<a href="https://github.com/fluid-dev/hexo-theme-fluid">Fluid主题</a>  </p><p><strong>1. 下载解压</strong><br>下载主题文件并解压到themes目录下，将解压出的文件夹命名为主题名<br><strong>2. 修改内容</strong><br>修改Hexo目录中的_config.yml  </p><pre><code class="hljs">theme：主题名  language: zh-CN</code></pre><p><strong>3.其他事项</strong><br>有些主题需要自己创建部分内容，例如Fluid主题就需要自己创建About页面</p><h2 id="尝试本地运行"><a href="#尝试本地运行" class="headerlink" title="尝试本地运行"></a>尝试本地运行</h2><p>在项目目录，例如main下输入  </p><pre><code class="hljs">hexo g或者hexo generate</code></pre><p>该命令会生成对应的静态文件在public中<br>控制台中输入  </p><pre><code class="hljs">hexo s或者hexo server</code></pre><p>即可启动服务<br>在浏览器中打开对应网址<a href="http://localhost:4000/">http://localhost:4000</a>即可预览博客<br>每次修改博客内容或者配置想要预览的时候，请先使用<code>hexo clean</code>清除本地文件，然后重新生成并启动服务</p>]]></content>
     
     
+    <categories>
+      
+      <category>教程</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>博客</tag>
+      
+      <tag>GitHub Pages</tag>
+      
+      <tag>Hexo</tag>
+      
+      <tag>Vscode</tag>
+      
+    </tags>
     
   </entry>
   
