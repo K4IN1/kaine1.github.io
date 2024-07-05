@@ -2,6 +2,11 @@
 title: Ubuntu下使用terminator或其他终端软件并替换默认终端和右键菜单
 date: 2024-07-05 10:12:31
 tags:
+- Ubuntu
+- 终端
+categories:
+- 教程
+
 ---
 
 Ubuntu下使用terminator或其他终端软件并替换默认终端和右键菜单

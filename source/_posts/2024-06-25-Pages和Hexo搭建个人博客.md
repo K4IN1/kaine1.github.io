@@ -111,7 +111,7 @@ Linux使用nvm进行包管理（安装完记得source ~/.bashrc）
 
 通过编辑_config.yaml文件中new_post_name，可以更改默认的文件名称，添加时间标签可以让我们更加方便管理博客,具体的更改方式可以参考[这里](https://hexo.io/zh-cn/docs/writing#%E6%96%87%E4%BB%B6%E5%90%8D%E7%A7%B0)  
 添加一篇新的post
-```shell
+``` shell
 hexo new post <your_title>
 ```
 随后你的source/_posts文件夹中就会出现这样一个.md文件，依照正常Html或者Markdown格式就可以撰写文章了  
@@ -195,7 +195,7 @@ hexo new post <your_title>
 本着免费够用的原则，选择GitHub Pages进行部署
 ## 安装部署工具
 
-```
+``` shell
 npm install hexo-deployer-git --save
 ```
 一行搞定
