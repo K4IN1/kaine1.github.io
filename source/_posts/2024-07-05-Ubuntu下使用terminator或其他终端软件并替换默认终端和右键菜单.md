@@ -33,7 +33,7 @@ Terminal与Shell是不同的
 
 例如安装Terminator
 
-``` shell
+```shell
 sudo apt install terminator
 ```
 
@@ -46,7 +46,7 @@ sudo apt install terminator
 有的终端软件在安装之后就会自动替换该快捷键
 如果没有替换，请使用如下指令
 
-``` shell
+```shell
 gsettings set org.gnome.desktop.default-applications.terminal exec /usr/bin/terminator
 gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 ```
@@ -54,7 +54,7 @@ gsettings set org.gnome.desktop.default-applications.terminal exec-arg "-x"
 请把`exec`后的路径更换成你自己终端的路径
 要还原初始，请使用
 
-``` shell
+```shell
 gsettings reset org.gnome.desktop.default-applications.terminal exec
 gsettings reset org.gnome.desktop.default-applications.terminal exec-arg
 ```
@@ -78,7 +78,7 @@ gsettings reset org.gnome.desktop.default-applications.terminal exec-arg
 要配置该拓展，需要使用命令行或者dconf-editor  
 通过编辑`com.github.stunkymonkey.nautilus-open-any-terminal`中的四个不同参数即可  
 
-``` shell
+```shell
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal terminal alacritty
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal keybindings '<Ctrl><Alt>t'
 gsettings set com.github.stunkymonkey.nautilus-open-any-terminal new-tab true
